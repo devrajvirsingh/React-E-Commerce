@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    background-color: rgb(169, 167, 167);
+}
+.image-part{
+    display:flex ;
+    gap: 10px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    
+}
+.social{
+    display: flex;
+    gap: 10px;
+}

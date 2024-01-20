@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2 grey;
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 10px;
+}
+.item-price-new{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(39, 38, 38);
+}
+.item-price-old{
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
